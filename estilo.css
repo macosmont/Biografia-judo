@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+text-align: 'justify';
+font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1em;
+font-style: normal;
+color: rgba(0, 15, 63, 0.76);
+background-image: linear-gradient(rgb(56, 30, 8), rgb(65, 0, 0))
+}
+
+div{
+font-family: 'Indie Flower', serif;
+font-size: 1em;
+font-style: normal;
+text-align: center;
+}
+
+h3{
+color: rgba(50, 0, 0, 0.758);
+}
+
+main {
+background-color: white;
+width: 600px;
+text-align: center;
+padding: 10px;
+margin: auto;
+}
