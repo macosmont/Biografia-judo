@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 body{
+margin: 0%;
 text-align: 'justify';
 font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif;
 font-size: 1em;
@@ -22,9 +23,35 @@ color: rgba(50, 0, 0, 0.758);
 }
 
 main {
-background-color: white;
-width: 600px;
-text-align: center;
-padding: 10px;
-margin: auto;
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
 }
+
+footer{
+    background-color: black;
+    margin: 0%;
+    padding: 1px;
+    color: white;
+    margin: 4px 0px;
+    text-align: center;
+}
+
+p{
+    margin: 0%;
+}
+
+header{
+    margin-bottom: 10px;
+}
+
+nav{
+color: rgb(206, 193, 193);
+display: inline;
+margin-right: 5px;
+padding: 1px;
+outline: 2px;
+font-size: 0.8em;
+font-family: Georgia, 'Times New Roman', Times, serif;
