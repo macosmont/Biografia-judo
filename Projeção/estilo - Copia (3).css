@@ -21,6 +21,7 @@ main {
     text-align: center;
     margin: auto;
     padding: 10px;
+    border-radius: 2px;
 }
 
 footer{
@@ -49,6 +50,10 @@ a:hover {
 
 ul > a{
     color: rgb(0, 0, 0);
+}
+
+a{
+    color: #292929;
 }
 
 nav{
