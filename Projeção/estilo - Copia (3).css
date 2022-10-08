@@ -1,67 +1,115 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&family=Cutive+Mono&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Noto+Sans+Mono:wght@600&display=swap');
 
 body{
-    margin: 0%;
-    text-align: 'justify';
-    font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
+    margin: auto;
+    font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
     font-style: normal;
-    color: rgba(0, 15, 63, 0.76);
-    background-image: linear-gradient(rgb(56, 30, 8), rgb(65, 0, 0))
+    width: auto;
+    background-image: url(imagem/a6.png); background-repeat: repeat; background-position: center;
 }
 
-h3{
-    color: rgba(50, 0, 0, 0.758);
+nav{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    padding: 10px;
+    margin: 1em 0em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px #0000007a;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1.2em;
+}
+
+a:hover {
+    text-decoration: solid;
+    background-color: rgba(0, 0, 0, 0.041);
+    color: rgb(121, 121, 121);
+    transition: 0.5s;
+    margin: ;
 }
 
 main {
     background-color: white;
-    width: 600px;
-    text-align: center;
     margin: auto;
-    padding: 10px;
-    border-radius: 2px;
+    padding: auto;
+    font-family: 'Peralta', 'cursive';
+    font-size: 1em;
+    text-align: center;
+    width: 700px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.701);
+    box-shadow: 5px 5px 5px #00000097; 
+    line-height: 1.5em;
 }
+
+main h1{
+    font-family:'Crimson Text', 'Times New Roman', Times, serif ;
+    font-size: 1.5em;
+    margin: 0%;
+    color: rgb(77, 24, 3);
+}
+
+main h2{
+    font-family:'Crimson Text', 'Times New Roman', Times, serif ;
+    margin: 0%;
+    font-size: 1em;
+    color: rgb(71, 1, 1);
+}
+
+main h3{
+    font-family: 'Cutive Mono', 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    color: rgb(41, 0, 0);
+    margin: 0%;
+}
+
+article p{
+    text-align: justify;
+    text-indent: 16px;
+    padding: 0.5em;
+    margin: 0em;   
+}
+
+#lista{
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Sans Mono','Courier New', Courier, monospace;
+    font-size: 1em;
+    margin-left: 2em;
+    text-align: justify;
+    list-style-type: none;
+    width: 500px;
+    line-height: 1.5em;
+}
+
+.imagem{
+    padding: 2em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin: 1em;
+    text-decoration: none;
+}
+
+strong{
+    font-style: italic;
+}
+
 
 footer{
-    background-color: black;
-    margin: 0%;
-    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.557);
     color: white;
-    margin: 4px 0px;
+    margin: auto;
     text-align: center;
+    border-radius: 2px;
 }
-
-p{
-    margin: 0%;
-}
-
-header{
-    margin-bottom: 10px;
-}
-
-nav > a{
-    color: rgb(250, 231, 231);
-}
-a:hover {
-    color: rgb(0, 0, 0);
-}
-
-ul > a{
-    color: rgb(0, 0, 0);
-}
-
-a{
-    color: #292929;
-}
-
-nav{
-    color: rgb(206, 193, 193);
-    display: inline;
-    margin-right: 5px;
-    padding: 1px;
-    outline: 2px;
-    font-size: 0.8em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
