@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&family=Cutive+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&family=Cutive+Mono&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gemunu+Libre:wght@300&family=Noto+Sans+Mono:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Noto+Sans+Mono:wght@600&display=swap');
 
 body{
@@ -43,8 +43,8 @@ main {
     background-color: white;
     margin: auto;
     padding: auto;
-    font-family: 'Peralta', 'cursive';
-    font-size: 1em;
+    font-family: 'Gemunu Libre', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
     text-align: center;
     width: 700px;
     border-radius: 3px;

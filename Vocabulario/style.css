@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+body{
+    margin: auto;
+    padding: auto;
+    font-family: 'Alkalami', serif;
+    font-style: normal;
+    background-image: url(imagens/a6.png); background-repeat:repeat; background-position:center;
+    width: 700px;
+}
+
+nav{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    padding: 10px;
+    margin: 1em 0em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px #0000007a;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 1.2em;
+}
+
+nav a:hover{
+    text-decoration: solid;
+    background-color: rgba(0, 0, 0, 0.041);
+    color: rgb(121, 121, 121);
+    transition: 0.5s;
+}
+
+.cinza{  
+    background-color: rgb(133, 133, 133);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #00000097; 
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+.azul{  
+    border-radius: 3px;
+    background-color: darkblue;
+    box-shadow: 5px 5px 5px #000000ac; 
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+.amarela{ 
+    background-color: rgb(209, 203, 28);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #000000bd; 
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+.laranja{  
+    background-color: rgb(255, 102, 36);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #000000ce; 
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+.verde{
+    background-image: linear-gradient( to right, green 30%, rgb(52, 0, 116), rgb(96, 51, 0) );
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #000000c6; 
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+div a:link{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    height: 1em;
+    width: 14em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: 'Alkalami', serif;
+    font-size: 1.2em;
+    text-align: left;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(140, 140, 140);
+}
+
+div a:hover{
+    text-decoration: solid;
+    background-color: rgba(174, 174, 174, 0.046);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+div a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#especial a:hover{
+    text-decoration: solid;
+    background-color: rgba(174, 174, 174, 0.046);
+    color: rgba(255, 255, 255, 0.918);
+    transition: 0.5s;
+}
+
+main nav{
+    color: black;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.557);
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 2px;
+}

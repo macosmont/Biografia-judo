@@ -2,7 +2,7 @@
 @charset-UTF-8;
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&family=Cutive+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Crimson+Text&family=Cutive+Mono&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gemunu+Libre:wght@300&family=Noto+Sans+Mono:wght@600&display=swap');
 
 body{
     margin: auto;
@@ -45,8 +45,8 @@ main {
     background-color: white;
     margin: auto;
     padding: auto;
-    font-family: 'Peralta', 'cursive';
-    font-size: .8em;
+    font-family: 'Gemunu Libre', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
     text-align: center;
     width: 700px;
     border-radius: 3px;
@@ -64,7 +64,7 @@ main h1{
 
 
 main h3{
-    font-family: 'Cutive Mono', 'Courier New', Courier, monospace;
+    font-family:'Crimson Text', 'Times New Roman', Times, serif ;
     font-size: 1.1em;
     color: rgb(41, 0, 0);
     margin: 0%;
