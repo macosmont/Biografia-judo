@@ -12,6 +12,7 @@ body{
     background: url(imagem/vermelho.png) no-repeat center;
     background-size: cover;
     width: 700px;
+    background-attachment: fixed;
 
 }
 
