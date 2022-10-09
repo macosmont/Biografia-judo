@@ -105,5 +105,13 @@ footer a:hover{
     color: rgb(183, 143, 126);
 }
 
+img.social{
+    width: 20px;
+}
+
+img.social:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
 
 
