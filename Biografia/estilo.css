@@ -42,7 +42,7 @@ a:hover {
 }
 
 main {
-    background-color: white;
+    background-image: url(../Biografia/imagens/a9.jpg);
     margin: auto;
     padding: auto;
     font-family: 'Gemunu Libre', Arial, Helvetica, sans-serif;
@@ -98,18 +98,33 @@ strong{
     font-style: italic;
 }
 
-aside{
-    text-decoration: none;
+aside a{
     text-align: center;
+    color: black;
 }
 
-footer{
-    background-color: rgba(0, 0, 0, 0.557);
+footer {
+    background-image: url(../Vocabulario/imagens/a3.jfif);
     color: white;
     margin: auto;
     text-align: center;
     border-radius: 2px;
+    text-decoration: none;
 }
 
+footer a:link{
+    text-decoration: none;
+    color: rgb(183, 143, 126);
+}
+
+footer a:visited{
+    text-decoration: overline;
+    color: rgb(184, 138, 120);
+}
+
+footer a:hover{
+    background-color: none;
+    color: rgb(183, 143, 126);
+}
 
 
