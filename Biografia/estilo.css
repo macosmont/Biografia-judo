@@ -5,19 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gemunu+Libre:wght@300&family=Noto+Sans+Mono:wght@600&display=swap');
 
 body{
+    font: normal 'Source Sans Pro', Verdana, Tahoma, sans-serif;
     margin: auto;
     padding: auto;
-    font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    background-image: url(imagens/a4.gif); background-repeat:repeat; background-position:center;
+    background: url(imagens/a4.gif) repeat center;
     width: 700px;
 
 }
 
 nav{
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
+    border: 1px solid white;
     background-color: rgba(0, 0, 0, 0.66);
     color: white;
     padding: 10px;
@@ -45,8 +42,7 @@ main {
     background-image: url(../Biografia/imagens/a9.jpg);
     margin: auto;
     padding: auto;
-    font-family: 'Gemunu Libre', Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font: 1.3em 'Gemunu Libre', Arial, Helvetica, sans-serif;
     text-align: center;
     width: 700px;
     border-radius: 3px;
@@ -56,22 +52,19 @@ main {
 }
 
 main h1{
-    font-family:'Crimson Text', 'Times New Roman', Times, serif ;
-    font-size: 1.5em;
+    font: 1.5em 'Crimson Text', 'Times New Roman', Times, serif ;
     margin: 0%;
     color: rgb(77, 24, 3);
 }
 
 main h2{
-    font-family:'Crimson Text', 'Times New Roman', Times, serif ;
     margin: 0%;
-    font-size: .7em;
+    font: .7em 'Crimson Text', 'Times New Roman', Times, serif ;
     color: rgb(0, 0, 0);
 }
 
 main h3{
-    font-family: 'Cutive Mono', 'Courier New', Courier, monospace;
-    font-size: 1.1em;
+    font-size: 1.1em 'Cutive Mono', 'Courier New', Courier, monospace;
     color: rgb(41, 0, 0);
     margin: 0%;
 }
@@ -84,9 +77,8 @@ article p{
 }
 
 div#destaque{
-    font-style: italic;
+    font: italic 23px;
     color: rgb(94, 32, 6);
-    font-size: 23px;
     text-decoration:underline;
 }
 
