@@ -34,6 +34,7 @@ nav a {
     box-shadow: 5px 5px 5px #0000004a; 
     line-height: 1.5em;
     text-decoration: none;
+    padding: 2px;
 }
 
 .azul{  
@@ -42,6 +43,7 @@ nav a {
     box-shadow: 5px 5px 5px #0000004a; 
     line-height: 1.5em;
     text-decoration: none;
+    padding: 2px;
 }
 
 .amarela{ 
@@ -50,6 +52,7 @@ nav a {
     box-shadow: 5px 5px 5px #0000004a; 
     line-height: 1.5em;
     text-decoration: none;
+    padding: 2px;
 }
 
 .laranja{  
@@ -58,6 +61,7 @@ nav a {
     box-shadow: 5px 5px 5px #0000004a; 
     line-height: 1.5em;
     text-decoration: none;
+    padding: 2px;
 }
 
 .verde{
@@ -66,6 +70,7 @@ nav a {
     box-shadow: 5px 5px 5px #0000004a; 
     line-height: 1.5em;
     text-decoration: none;
+    padding: 2px;
 }
 
 div a:link{

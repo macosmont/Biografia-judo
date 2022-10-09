@@ -65,8 +65,8 @@ main h1{
 main h2{
     font-family:'Crimson Text', 'Times New Roman', Times, serif ;
     margin: 0%;
-    font-size: 1em;
-    color: rgb(71, 1, 1);
+    font-size: .7em;
+    color: rgb(0, 0, 0);
 }
 
 main h3{
