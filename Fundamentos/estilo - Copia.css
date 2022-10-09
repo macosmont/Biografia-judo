@@ -8,7 +8,8 @@ body{
     margin: auto;
     padding: auto;
     font: normal 'Source Sans Pro', Verdana, Tahoma, sans-serif;
-    background: url(imagens/a6.png) repeat center;
+    background: url(imagens/vermelho.png) no-repeat center;
+    background-size: cover;
     width: 700px;
 
 }
@@ -39,7 +40,8 @@ a:hover {
 }
 
 main {
-    background-image: url(../Fundamentos/imagens/a9.jpg);
+    background-image: url(imagens/branco.jpg);
+    background-size: cover;
     margin: auto;
     padding: auto;
     font: 1.3em 'Gemunu Libre', Arial, Helvetica, sans-serif;
@@ -55,12 +57,13 @@ main h1{
     font-size: 1.5em 'Crimson Text', 'Times New Roman', Times, serif ;
     margin: 0%;
     color: rgb(77, 24, 3);
+    padding-top: 6px;
 }
 
 
 main h3{
-    font-size: 1.1em 'Crimson Text', 'Times New Roman', Times, serif ;
-    color: rgb(41, 0, 0);
+    font-size: .8em 'Crimson Text', 'Times New Roman', Times, serif ;
+    color: rgb(0, 0, 0);
     margin: 0%;
 }
 
@@ -82,7 +85,7 @@ aside a{
 }
 
 footer {
-    background-image: url(../Vocabulario/imagens/a3.jfif);
+    background-image: url(imagens/preto.jfif);
     color: white;
     margin: auto;
     text-align: center;

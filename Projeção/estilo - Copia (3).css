@@ -9,7 +9,8 @@ body{
     margin: auto;
     padding: auto;
     font: normal 'Source Sans Pro', Verdana, Tahoma, sans-serif;
-    background: url(../Projeção/imagem/a6.png) repeat center;
+    background: url(imagem/vermelho.png) no-repeat center;
+    background-size: cover;
     width: 700px;
 
 }
@@ -43,7 +44,8 @@ a:hover {
 main {
     max-width: 1000px;
     min-width: 320px;
-    background-image: url(../Projeção/imagem/a3.png);
+    background-image: url(imagem/branco.jpg);
+    background-size: cover;
     margin: auto;
     font: 1.3em 'Gemunu Libre', Arial, Helvetica, sans-serif;
     text-align: center;
@@ -121,7 +123,7 @@ div.video > iframe{
 }
 
 footer {
-    background-image: url(../Vocabulario/imagens/a3.jfif);
+    background-image: url(imagem/preto.jfif);
     color: white;
     margin: auto;
     text-align: center;

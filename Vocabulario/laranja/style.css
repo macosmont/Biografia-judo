@@ -8,7 +8,8 @@ body{
     margin: auto;
     padding: auto;
     font: normal 'Alkalami', serif;
-    background: url(../imagens/a6.png) repeat center;
+    background: url(../imagens/vermelho.png) no-repeat center;
+    background-size: cover;
     width: 700px;
 }
 
@@ -31,7 +32,8 @@ nav a:link{
 }
 
 main{
-    background: url(../imagens/a3.png) repeat center;
+    background: url(../imagens/branco.jpg) no-repeat center;
+    background-size: cover;
     margin: auto;
     font: 1.3em 'Gemunu Libre', Arial, Helvetica, sans-serif;
     text-align: center;
@@ -86,7 +88,7 @@ article ul{
 }
 
 footer {
-    background-image: url(../imagens/a3.jfif);
+    background-image: url(../imagens/preto.jfif);
     color: white;
     margin: auto;
     text-align: center;
@@ -107,4 +109,13 @@ footer a:visited{
 footer a:hover{
     background-color: none;
     color: rgb(183, 143, 126);
+}
+
+img.social{
+    width: 20px;
+}
+
+img.social:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
 }

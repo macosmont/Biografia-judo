@@ -8,7 +8,8 @@ body{
     font: normal 'Source Sans Pro', Verdana, Tahoma, sans-serif;
     margin: auto;
     padding: auto;
-    background: url(imagens/a4.gif) repeat center;
+    background: url(imagens/vermelho.png) no-repeat center;
+    background-size: cover;
     width: 700px;
 
 }
@@ -39,7 +40,8 @@ a:hover {
 }
 
 main {
-    background-image: url(../Biografia/imagens/a9.jpg);
+    background-image: url(imagens/branco.jpg);
+    background-size: cover;
     margin: auto;
     padding: auto;
     font: 1.3em 'Gemunu Libre', Arial, Helvetica, sans-serif;
@@ -96,7 +98,8 @@ aside a{
 }
 
 footer {
-    background-image: url(../Vocabulario/imagens/a3.jfif);
+    background: url(imagens/preto.jfif);
+    background-size: cover;
     color: white;
     margin: auto;
     text-align: center;

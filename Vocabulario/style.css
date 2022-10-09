@@ -6,7 +6,8 @@ body{
     margin: auto;
     padding: auto;
     font: normal 'Alkalami', serif;
-    background: url(imagens/a15.png) repeat center;
+    background-image: url(imagens/vermelho.png);
+    background-size: cover;
     width: 700px;
 }
 
@@ -103,7 +104,7 @@ main nav{
 }
 
 footer {
-    background-image: url(../Vocabulario/imagens/a3.jfif);
+    background-image: url(imagens/preto.jfif);
     color: white;
     margin: auto;
     text-align: center;
