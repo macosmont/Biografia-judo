@@ -41,7 +41,7 @@ a:hover {
 }
 
 main {
-    background-image: url(imagens/branco.jpg);
+    background-image: url(imagens/branco\ novo.jpg);
     background-size: cover;
     margin: auto;
     padding: auto;

@@ -32,7 +32,7 @@ nav a:link{
 }
 
 main {
-    background: url(../imagens/branco.jpg) no-repeat center;
+    background: url(../imagens/branco\ novo.jpg) no-repeat center;
     background-size: cover;
     margin: auto;
     padding: auto; 
