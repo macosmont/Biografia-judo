@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+header{
+    display: none;
+}
+
+.a{
+    text-align: center;
+}
+
+main{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-indent: 1.5em;
+    width: 100%;
+    box-shadow: none;
+}
+
+.fonte{
+    display: none;
+}
+
+.b::after{
+    content:'A fonte desse conteúdo foi tirada da "apostila da Yamarashi, encontrada por meio do site https://onbus.com.br/leeia.com.br/pdf/Apostila%20Judo%20-%20Instituto%20Yamarashi.pdf" ';
+    font-size: .5em;
+}
+
+footer{
+    display: none;
+    line-height: normal;
+}
