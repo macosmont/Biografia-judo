@@ -4,50 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SisJu - Login e Cadastro</title>
-    <link rel="stylesheet" href="estilo.css">">
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <div class="container">
-        <!-- Login Section -->
+        <!-- Formulário de Login -->
         <div class="form-container login">
             <h2>Login</h2>
-            <form action="#" method="post">
-                <label for="login-email">Email:</label>
-                <input type="email" id="login-email" name="email" required>
-
-                <label for="login-password">Senha:</label>
-                <input type="password" id="login-password" name="password" required>
-
-                <button type="submit">Entrar</button>
-            </form>
-            <p class="toggle">Não tem uma conta? <a href="/Main/SisJu.html" onclick="toggleForms()">Cadastre-se</a></p>
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" placeholder="Digite seu e-mail">
+            <label for="login-senha">Senha:</label>
+            <input type="password" id="login-senha" placeholder="Digite sua senha">
+    
+            <button type="submit">Entrar</button>
+    
+            <div class="toggle">
+                <p>Não tem uma conta? <a href="#" id="toggleCadastro">Cadastre-se</a></p>
+            </div>
         </div>
-
-        <!-- Register Section -->
-        <div class="form-container register">
+    
+        <!-- Formulário de Cadastro -->
+        <div class="form-container cadastro hidden">
             <h2>Cadastro</h2>
-            <form action="#" method="post">
-                <label for="register-name">Nome Completo:</label>
-                <input type="text" id="register-name" name="name" required>
-
-                <label for="register-email">Email:</label>
-                <input type="email" id="register-email" name="email" required>
-
-                <label for="register-password">Senha:</label>
-                <input type="password" id="register-password" name="password" required>
-
-                <button type="submit">Cadastrar</button>
-            </form>
-            <p class="toggle">Já tem uma conta? <a href="#" onclick="toggleForms()">Faça Login</a></p>
+            <label for="cadastro-nome">Nome:</label>
+            <input type="text" id="cadastro-nome" placeholder="Digite seu nome">
+    
+            <label for="cadastro-email">Email:</label>
+            <input type="email" id="cadastro-email" placeholder="Digite seu e-mail">
+    
+            <label for="cadastro-senha">Senha:</label>
+            <input type="password" id="cadastro-senha" placeholder="Digite sua senha">
+    
+            <label for="confirma-senha">Confirmar Senha:</label>
+            <input type="password" id="confirma-senha" placeholder="Confirme sua senha">
+    
+            <button type="submit" id="cadastrado">Cadastrar</button>
+    
+            <div class="toggle">
+                <p>Já tem uma conta? <a href="#" id="toggleLogin">Login</a></p>
+            </div>
         </div>
     </div>
 
-    <script>
-        // Função para alternar entre os formulários de login e cadastro
-        function toggleForms() {
-            document.querySelector('.login').classList.toggle('hidden');
-            document.querySelector('.register').classList.toggle('hidden');
-        }
-    </script>
+    <script src="login.js"></script>
 </body>
 </html>
